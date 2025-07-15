@@ -7,9 +7,9 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(NumberB)
 })
 input.onGesture(Gesture.LogoDown, function () {
-    basic.showString("NumberA is " + ("" + NumberA))
-    basic.pause(1000)
-    basic.showString("NumberB is " + ("" + NumberB))
+    basic.showString("NumberA: " + ("" + NumberA))
+    basic.pause(2000)
+    basic.showString("NumberB: " + ("" + NumberB))
 })
 let NumberB = 0
 let NumberA = 0
